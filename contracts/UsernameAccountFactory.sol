@@ -26,4 +26,8 @@ contract UsernameAccountFactory is BaseAccountFactory {
     ) internal override {
         UsernameAccount(payable(_account)).initialize(_admin, _data);
     }
+
+    function onRegistered(
+        
+    )
 }
