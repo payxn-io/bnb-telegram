@@ -11,6 +11,10 @@ Enables users to seamlessly connect to the BNB Chain using their Telegram creden
 - [x] Add .env, hardhatconfig.ts, tsconfig.json
 - [x] Create scripts directory
 
+### Deployed Contracts:
+- [x] UsernameAccountFactory.sol
+https://testnet.bscscan.com/address/0x1d845465D51cb68B0CF3Fb6aC6A978cb24182217
+
 
 ## Building the project
 
