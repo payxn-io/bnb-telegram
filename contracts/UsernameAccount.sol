@@ -17,5 +17,6 @@ contract UsernameAccount is Account {
         string calldata _username
      ) external {
         require(msg.sender == address(this), "Only the account itself can register");
+        UsernameAccountFactory(factory).onRegistered(_username);
     }
 }
