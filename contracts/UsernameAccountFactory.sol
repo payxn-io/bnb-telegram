@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.13;
 
 import '@thirdweb-dev/contracts/prebuilts/account/utils/BaseAccountFactory.sol';
 import './UsernameAccount.sol';
