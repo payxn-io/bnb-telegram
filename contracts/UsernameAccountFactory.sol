@@ -8,6 +8,7 @@ contract UsernameAccountFactory {
 
     event RegisteredUsername(string username, address account);
     mapping(string => address) public accountOfUsername;
+    mapping(address => string) public usernameOfAccount;
 
     constructor() {
 
