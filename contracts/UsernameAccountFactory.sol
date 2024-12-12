@@ -36,6 +36,6 @@ contract UsernameAccountFactory is BaseAccountFactory {
         accountOfUsername[username] = account;
         usernameOfAccount[account] = username;
         hasUsername[account] = true;
-       
+        emit RegisteredUsername(username, account);
     }
 }
