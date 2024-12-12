@@ -5,5 +5,10 @@ import '@thirdweb-dev/contracts/prebuilts/account/utils/BaseAccountFactory.sol';
 import './UsernameAccount.sol';
 
 contract UsernameAccountFactory {
-    constructor() {}
+
+    event RegisteredUsername(string username, address account);
+
+    constructor() {
+
+    }
 }
