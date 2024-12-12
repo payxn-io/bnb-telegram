@@ -12,4 +12,6 @@ contract UsernameAccount is Account {
     ) Account(_entrypoint, _factory) {
         _disableInitializers();
     }
+
+     function register()
 }
