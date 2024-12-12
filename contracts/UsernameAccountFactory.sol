@@ -11,7 +11,11 @@ contract UsernameAccountFactory is BaseAccountFactory {
     mapping(address => string) public usernameOfAccount;
     mapping(address => bool) public hasUsername;
 
-    constructor() {
-
-    }
+    constructor(
+        IEntryPoint _entrypoint
+    ) 
+        BaseAccountFactory(
+            address(new UsernameAccount(_entrypoint, address(this))), address(_entrypoint)
+        )
+    {}
 }
