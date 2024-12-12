@@ -6,5 +6,10 @@ import '@thirdweb-dev/contracts/prebuilts/account/non-upgradeable/Account.sol';
 
 
 contract UsernameAccount {
-    constructor() {}
+    constructor(
+        IEntryPoint _entrypoint,
+        address _factory
+    ) Account(_entrypoint, _factory) {
+        _disableInitializers();
+    }
 }
