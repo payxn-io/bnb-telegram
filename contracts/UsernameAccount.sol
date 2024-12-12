@@ -15,5 +15,7 @@ contract UsernameAccount is Account {
 
      function register(
         string calldata _username
-     )
+     ) external {
+        
+    }
 }
