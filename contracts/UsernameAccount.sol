@@ -13,5 +13,7 @@ contract UsernameAccount is Account {
         _disableInitializers();
     }
 
-     function register()
+     function register(
+        string calldata _username
+     )
 }
