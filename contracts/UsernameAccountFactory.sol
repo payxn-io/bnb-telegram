@@ -33,6 +33,7 @@ contract UsernameAccountFactory is BaseAccountFactory {
         address account = msg.sender;
         require(this.isRegistered(account), "CredentialAccountFactory: account not registered");
         require(accountOfUsername[username] == address(0), "CredentialAccountFactory: username already registered");
+        accountOfUsername[username] = account;
         
     }
 }
