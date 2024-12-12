@@ -7,6 +7,7 @@ import './UsernameAccount.sol';
 contract UsernameAccountFactory {
 
     event RegisteredUsername(string username, address account);
+    mapping(string => address) public accountOfUsername;
 
     constructor() {
 
