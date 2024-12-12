@@ -30,6 +30,7 @@ contract UsernameAccountFactory is BaseAccountFactory {
     function onRegistered(
         string calldata username
     ) external {
-       
+        address account = msg.sender;
+        
     }
 }
