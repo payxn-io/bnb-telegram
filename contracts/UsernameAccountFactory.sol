@@ -31,6 +31,7 @@ contract UsernameAccountFactory is BaseAccountFactory {
         string calldata username
     ) external {
         address account = msg.sender;
+        require(this.isRegistered(account), "CredentialAccountFactory: account not registered");
         
     }
 }
