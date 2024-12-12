@@ -18,4 +18,12 @@ contract UsernameAccountFactory is BaseAccountFactory {
             address(new UsernameAccount(_entrypoint, address(this))), address(_entrypoint)
         )
     {}
+
+    function _initializeAccount(
+        address _account,
+        address _admin,
+        bytes calldata _data
+    ) internal override {
+        UsernameAccount(payable(_account)).initialize(_admin, _data);
+    }
 }
