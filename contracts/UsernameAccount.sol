@@ -16,6 +16,6 @@ contract UsernameAccount is Account {
      function register(
         string calldata _username
      ) external {
-        
+        require(msg.sender == address(this), "Only the account itself can register");
     }
 }
