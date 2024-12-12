@@ -5,7 +5,7 @@ import './UsernameAccountFactory.sol';
 import '@thirdweb-dev/contracts/prebuilts/account/non-upgradeable/Account.sol';
 
 
-contract UsernameAccount {
+contract UsernameAccount is Account {
     constructor(
         IEntryPoint _entrypoint,
         address _factory
