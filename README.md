@@ -12,6 +12,8 @@ Enables users to seamlessly connect to the BNB Chain using their Telegram creden
 - [x] Create scripts directory
 - [x] Deploy UsernameAccountFactory contract
 - [x] Add Entrypoint for Account abstraction: 0x5FF137D4b0FDCD49DcA30c7CF57E578a026d2789
+- [x] Create telegram bot 
+
 
 ### Deployed Contracts:
 - [x] UsernameAccountFactory.sol
