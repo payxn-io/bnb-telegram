@@ -5,6 +5,9 @@ Enables users to seamlessly connect to the BNB Chain using their Telegram creden
 ### Telegram Bot Link:
 - [x] https://t.me/bnbpayxn_bot
 
+### Demo video:
+- [x] https://www.youtube.com/watch?v=NZIw9IVzR80
+
 ### Getting started:
 - [x] Download Telegram if you don't have it yet
 - [x] Signin with your email 
