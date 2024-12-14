@@ -26,6 +26,11 @@ https://testnet.bscscan.com/address/0xcFfafCa921731Cc1A2AB8E8bc09c7c22247A5224
 - [x] Verified Contract: UsernameAccountFactory.sol
 https://testnet.bscscan.com/address/0xBCac49904EA6375Cf45dd8C88DF19213cd5387Bb#code
 
+### Frontend Github:
+- [x] https://github.com/payxn-io/bnb-testapp
+
+
+
 ## Building the project
 
 After any changes to the contract, run:
