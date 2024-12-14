@@ -8,6 +8,7 @@ Enables users to seamlessly connect to the BNB Chain using their Telegram creden
 ### Getting started:
 - [x] Download Telegram if you don't have it yet
 - [x] Signin with your email 
+- [x] Get OTP from your email account
 
 ### To do list
 - [x] Create a fresh new dapp using create contract as a base
