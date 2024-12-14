@@ -10,6 +10,8 @@ Enables users to seamlessly connect to the BNB Chain using their Telegram creden
 - [x] Create contracts directory and build UsernameAccountFactory.sol
 - [x] Add .env, hardhatconfig.ts, tsconfig.json
 - [x] Create scripts directory
+- [x] Deploy UsernameAccountFactory contract
+
 
 ### Deployed Contracts:
 - [x] UsernameAccountFactory.sol
