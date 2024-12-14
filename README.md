@@ -2,6 +2,9 @@
 ```
 Enables users to seamlessly connect to the BNB Chain using their Telegram credentials, enabling secure and user-friendly access to decentralized applications and transactions without relying on external wallets.
 ```
+### Telegram Bot Link:
+- [x] t.me/bnbpayxn_bot
+
 
 
 ### To do list
